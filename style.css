@@ -10,14 +10,17 @@ body {
 }
 
 h1 {
+  text-transform: uppercase;
   color: #00008B;
-  text-align: center;
+  text-align: left;
 }
 
 .header {
+  text-transform: uppercase;
   max-width: 75%;
   text-align: justify;
-  margin: 2rem auto;
+  margin: auto;
+  margin-top: 2rem;
   padding: 0 2rem;
   line-height: 1.75rem;
 }
