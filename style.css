@@ -13,6 +13,7 @@ h1 {
   text-transform: uppercase;
   color: #00008B;
   text-align: left;
+  margin-bottom: 1.25rem;
 }
 
 .header {
@@ -48,27 +49,26 @@ h1 {
 
 @media screen and (max-width: 800px) {
   .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .header {
-    font-size: 0.75rem;
-    text-align: left;
+    font-size: 1rem;
   }
   .column {
-    -ms-flex: 100%;
-    flex: 100%;
+    -ms-flex: 25%;
+    flex: 25%;
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 414px) {
   .header {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     line-height: 1.25rem;
   }
 }
